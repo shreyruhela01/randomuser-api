@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import moment from 'moment'
+import moment from "moment";
 const url = "https://randomuser.me/api/";
 
 const FetchUsers = () => {
@@ -29,9 +29,7 @@ const FetchUsers = () => {
               city,
               state,
               country,
-              postcode,
-              coordinates: { latitude, longitude },
-              timezone: { offset, description },
+
             },
             email,
             login: { uuid, username },
@@ -52,27 +50,53 @@ const FetchUsers = () => {
                   {title}.{first} {last}
                 </h3>
                 <p>
-                  <span className="font-bold"> DOB: </span>
-                  {' '}
-                  {moment(`${date}`).format('MMMM Do YYYY')}
+                  <span className="font-bold"> DOB: </span>{" "}
+                  {moment(`${date}`).format("MMMM Do YYYY")}
                 </p>
                 <p> Age: {age} yrs</p>
-                <div className="underline mx-auto my-5"></div>
+                <div className="underline mx-auto my-6"></div>
               </div>
-              <div>
-                <p><span className="font-bold">  Email: </span> {email}</p>
-                <p> <span className="font-bold">  Username: </span> {username}</p>
-                <p> <span className="font-bold">  Cell: </span>{phone}</p>
-                <p> <span className="font-bold">  Country: </span>{country}</p>
-                <p> <span className="font-bold">  State: </span>{state}</p>
+              <div className="md:flex md:justify-between">
+                <div>
+                  <p>
+                    <span className="font-bold"> Email: </span> {email}
+                  </p>
+                  <p>
+                    {" "}
+                    <span className="font-bold"> Username: </span> {username}
+                  </p>
+                  <p>
+                    {" "}
+                    <span className="font-bold"> Gender: </span>
+                    {gender}
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    {" "}
+                    <span className="font-bold"> Cell: </span>
+                    {phone}
+                  </p>
+                  <p>
+                    {" "}
+                    <span className="font-bold"> Country: </span>
+                    {country}
+                  </p>
+                  <p>
+                    {" "}
+                    <span className="font-bold"> State: </span>
+                    {state}
+                  </p>
+                </div>
               </div>
 
               <div>
-              <button
-                onClick={() => fetchUserData()}
-                className="block mx-auto mt-5 bg-gray-900 text-white py-1 px-4 rounded-lg transition-colors hover:bg-gray-600">
-                Next Person
-              </button>
+                <button
+                  onClick={() => fetchUserData()}
+                  className="block mx-auto mt-5 bg-#526CFD text-black py-1 px-4 rounded-lg transition-colors hover:bg-gray-600"
+                >
+                  Next Person
+                </button>
               </div>
             </div>
           );
