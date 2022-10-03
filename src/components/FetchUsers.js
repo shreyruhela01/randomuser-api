@@ -55,6 +55,7 @@ const FetchUsers = () => {
                 </p>
                 <p> Age: {age} yrs</p>
                 <div className="underline mx-auto my-6"></div>
+                <p className="text-center font-bold my-5 "> Personal Details</p>
               </div>
               <div className="md:flex md:justify-between">
                 <div>
