@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2e9f3;
+    height: 120vh;
+    min-width: 100%;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+  .child {
+    height: 30%;
+    width: 45%;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    font-size: 17px;
+    z-index: 2;
+  }
+  .child-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+  .icon {
+    margin-right: 70px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid #555;
+  }
+  
+  .child2-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+  .child3 {
+    margin-right: 40px;
+  }
+  .child4 {
+    margin-left: 40px;
+  }
+  
+  .child h4 {
+    margin: 8px 0px 0px 7px;
+    text-align: left;
+  }
+  label {
+    font-weight: 700;
+  }
+  img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+  }
+  .inputs {
+    text-align: left;
+  }
+  .inputs-child {
+    margin-bottom: 16px;
+  }
+  .child2-container-child2 {
+    text-align: left;
+    margin-left: 0;
+  }
+  .heading {
+    margin-left: 5px;
+  }
+  
+.heading1 {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 50px;
+  position: absolute;
+  background-color: #ffc300;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
