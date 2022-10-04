@@ -1,5 +1,21 @@
 # Getting Started with Create React App
 
+API ENDPOINT
+
+https://randomuser.me/api/  
+
+Every Refresh API will give random values. While doing the task, you should not use a refresh(Browser). try to get the data by fetching API again by clicking the random user button
+
+Colors Used
+
+background: #E2E9F3
+Main text: #000000
+Sub text: #6B6B6B
+Button bg: #526CFD
+
+![image](https://user-images.githubusercontent.com/53912983/193731404-60d84b99-02c0-4a6c-9839-9ff057129f98.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
