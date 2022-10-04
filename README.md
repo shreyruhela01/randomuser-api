@@ -13,7 +13,7 @@ Main text: #000000
 Sub text: #6B6B6B
 Button bg: #526CFD
 
-![image](https://user-images.githubusercontent.com/53912983/193731404-60d84b99-02c0-4a6c-9839-9ff057129f98.png)
+![image](https://user-images.githubusercontent.com/53912983/193731493-f58efecd-0ce5-43a2-a972-82f54e49466b.png)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
